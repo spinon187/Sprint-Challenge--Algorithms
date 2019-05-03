@@ -71,15 +71,6 @@ class SortingRobot:
                     self.move_right()
                     self.swap_item()
                     break
-        # while self.can_move_left() is True:
-        #     if self.compare_item() != 1:
-        #         self.move_left()
-        #     elif self.compare_item() == 1:
-        #         while self.can_move_right() is True:
-        #             self.move_right()
-        #             self.swap_item()
-        #     else:
-        #         break
         while self.can_move_left() is True:
             self.move_left()
         while self.can_move_right() is True:
